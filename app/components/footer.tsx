@@ -4,7 +4,7 @@ import { smallHeader } from "../recipes/small-header"
 const footer = css({
     position: 'sticky',
     bottom: '0',
-    borderTop: '1px solid gray',
+    borderTop: '1px solid #ccc',
     padding: '60px 0',
     display: 'flex',
     justifyContent: 'center',

@@ -8,7 +8,7 @@ const header = css({
     top: '0',
     zIndex: '1',
     padding: '25px 0',
-    borderBottom: '1px solid gray',
+    borderBottom: '1px solid #ccc',
     backgroundColor: 'white'
 })
 

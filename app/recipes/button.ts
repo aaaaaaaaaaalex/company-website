@@ -20,6 +20,15 @@ export const button = cva({
                     color: 'black',
                 },
             },
+            wide: {
+                bg: 'black',
+                color: 'white',
+                _hover: {
+                    bg: 'white',
+                    color: 'black',
+                },
+                width: '100%'
+            }
         },
     },
     defaultVariants: {
