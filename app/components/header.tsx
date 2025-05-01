@@ -1,19 +1,32 @@
 import { css } from "@/styled-system/css";
 import { ButtonContactUs } from "./button-contact-us";
+import { container } from "../recipes/container";
+import { smallHeader } from "../recipes/small-header";
 
-const styles = css({
+const header = css({
     position: 'sticky',
-    padding: '30px 20px',
+    top: '0',
+    zIndex: '1',
+    padding: '25px 0',
+    borderBottom: '1px solid gray',
+    backgroundColor: 'white'
+})
+
+const headerBody = css({
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
 })
 
 export function Header() {
     return (
-        <header className={styles}>
-            <div>Some Company</div>
-            <ButtonContactUs/>
+        <header className={header}>
+            <div className={container()}>
+                <div className={headerBody}>
+                    <h6 className={smallHeader()}>Some Company</h6>
+                    <ButtonContactUs/>                    
+                </div>
+            </div>
         </header>
     )
 }

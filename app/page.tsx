@@ -1,8 +1,11 @@
-import { css } from "@/styled-system/css";
+import { Header } from "./components/header";
+import { Info } from "./components/info";
+import { Intro } from "./components/intro";
+import { Call } from "./components/call";
+import { Footer } from "./components/footer";
 
 export default function Home() {
     return (
-        // <div className={css({ fontSize: "2xl", fontWeight: 'bold', color: 'blue.300' })}>Hello 🐼!</div>
         <>
             <Header/>
             <Intro/>
