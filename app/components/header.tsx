@@ -14,8 +14,14 @@ const header = css({
 
 const headerBody = css({
     display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    flexDirection: 'column',
+    gap: 2,
+    lg: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        
+    }
 })
 
 export function Header() {

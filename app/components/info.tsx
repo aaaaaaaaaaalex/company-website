@@ -5,7 +5,7 @@ import { smallHeader } from "../recipes/small-header"
 import { container } from "../recipes/container"
 
 const info = css({
-    padding: '40px',
+    padding: '40px 0',
 })
 
 const grid = css({

@@ -6,14 +6,23 @@ import { grayBox } from "../recipes/gray-box"
 const intro = css({
     padding: '20px 0',
     display: 'flex',
+    flexDirection: 'column',
+    gap: '40px',
+    lg: {
+        flexDirection: 'row',
+    }
 })
 
 const left = css({
-    width: '50%',
+    lg: {
+        width: '50%',
+    }
 })
 
 const right = css({
-    width: '50%',
+    lg: {
+        width: '50%',
+    }
 })
 
 const leftContainer = css({
