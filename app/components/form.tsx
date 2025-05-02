@@ -4,7 +4,7 @@ import React from 'react';
 import { css } from '@/styled-system/css';
 import { button } from '../recipes/button';
 import { State } from '../lib/actions';
-import { Box, TextField, Typography } from '@mui/material';
+import { Box, TextField } from '@mui/material';
 
 const styleForm = css({
     backgroundColor: 'white',
