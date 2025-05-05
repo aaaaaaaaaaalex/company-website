@@ -1,7 +1,10 @@
 ## This is a company website project
 
+### Technical note
+This project used React 19, Next 15 with app router, along with useActionState.
+
 ### Styling
-This project uses Panda CSS library, implementation CSS-in-JS. Attention! CSS-in-JS as a concept is deprecated. More info [there](https://opencollective.com/styled-components/updates/thank-you).
+This project used Panda CSS library, implementation CSS-in-JS. Attention! CSS-in-JS as a concept is deprecated. More info [there](https://opencollective.com/styled-components/updates/thank-you).
 
 ### Deploy
-add package-lock.json to the repository so that the command "npm ci" works
+Add package-lock.json to the repository so that the command "npm ci" works.
